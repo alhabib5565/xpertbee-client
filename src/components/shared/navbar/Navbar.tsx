@@ -59,11 +59,11 @@ const Navbar = () => {
               </Link>
             ))}
             {/* </div> */}
-            <div>
+            {/* <div>
               <Link href="contact">
                 <Button>Contact</Button>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </Container>

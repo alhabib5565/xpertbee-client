@@ -14,7 +14,7 @@ type TMyInput = {
   name: string;
   label: string;
   type: HTMLInputTypeAttribute;
-  placeholder: string;
+  placeholder?: string;
   isGrid?: boolean;
 };
 
@@ -47,7 +47,7 @@ const MyInput = ({ name, label, type, placeholder, isGrid }: TMyInput) => {
                 <Input
                   type={type}
                   className="bg-transparent"
-                  placeholder={placeholder}
+                  placeholder={placeholder || label}
                   {...field}
                 />
                 <FormMessage>{error?.message}</FormMessage>

@@ -19,4 +19,13 @@ export const navItems = [
     path: "/instructor-registration",
     pathName: "Be A Instructor",
   },
+
+  {
+    path: "/login",
+    pathName: "Login",
+  },
+  {
+    path: "/register",
+    pathName: "Register",
+  },
 ];
