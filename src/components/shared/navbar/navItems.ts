@@ -12,8 +12,8 @@ export const navItems = [
     pathName: "Short Course",
   },
   {
-    path: "/course",
-    pathName: "Course",
+    path: "/courses",
+    pathName: "Courses",
   },
   {
     path: "/instructor-registration",

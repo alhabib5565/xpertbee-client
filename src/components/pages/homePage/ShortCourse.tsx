@@ -29,7 +29,9 @@ const ShortCourse = () => {
               </div>
 
               <h3 className="text-lg font-[500] my-2">
-                <Link href={""}>Starting SEO as your Home Based Business</Link>
+                <Link href={"/courses/java-application-development"}>
+                  Starting SEO as your Home Based Business
+                </Link>
               </h3>
 
               <div className="flex justify-between items-center gap-8 my-2">
@@ -70,7 +72,7 @@ const ShortCourse = () => {
               </div>
 
               <h3 className="text-lg font-[500] my-2">
-                <Link href={""}>
+                <Link href={"/courses/java-application-development"}>
                   Starting Digital Marketing as your Home Based Business
                 </Link>
               </h3>
@@ -113,7 +115,7 @@ const ShortCourse = () => {
               </div>
 
               <h3 className="text-lg font-[500] my-2">
-                <Link href={""}>
+                <Link href={"/courses/java-application-development"}>
                   Start learning Content Writing For Your Business
                 </Link>
               </h3>

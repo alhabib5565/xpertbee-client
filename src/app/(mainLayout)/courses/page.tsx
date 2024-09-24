@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Courses = () => {
+const CoursesPage = () => {
   return (
     <Container>
       <div className="pt-20">
@@ -145,4 +145,4 @@ const Courses = () => {
   );
 };
 
-export default Courses;
+export default CoursesPage;
