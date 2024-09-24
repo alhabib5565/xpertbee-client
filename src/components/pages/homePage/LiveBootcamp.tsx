@@ -35,7 +35,9 @@ const LiveBootcamp = () => {
             </div>
             <div className="px-2">
               <h3 className="text-lg font-[500] my-2">
-                <Link href={""}>Java Development with React JS</Link>
+                <Link href={"/live-bootcamps/java-application-development"}>
+                  Java Development with React JS
+                </Link>
               </h3>
 
               <div className="flex justify-center gap-8 my-4">
@@ -111,7 +113,9 @@ const LiveBootcamp = () => {
             </div>
             <div className="px-2">
               <h3 className="text-lg font-[500] my-2">
-                <Link href={"#"}>Laravel Beginner Course</Link>
+                <Link href={"/live-bootcamps/java-application-development"}>
+                  Laravel Beginner Course
+                </Link>
               </h3>
 
               <div className="flex justify-center gap-8 my-4">
@@ -187,7 +191,9 @@ const LiveBootcamp = () => {
             </div>
             <div className="px-2">
               <h3 className="text-lg font-[500] my-2">
-                <Link href={"#"}>Android & iOS App Development </Link>
+                <Link href={"/live-bootcamps/java-application-development"}>
+                  Android & iOS App Development{" "}
+                </Link>
               </h3>
 
               <div className="flex justify-center gap-8 my-4">
