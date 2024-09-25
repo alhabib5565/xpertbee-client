@@ -10,7 +10,7 @@ type TContainer = {
 const Container = ({ children, className, large }: TContainer) => {
   return (
     <div
-      className={cn("max-w-[1140px] mx-auto w-full px-4", className, {
+      className={cn("max-w-[1140px] mx-auto w-full px-2", className, {
         "max-w-[1320px]": large,
       })}
     >

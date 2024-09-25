@@ -3,6 +3,8 @@ import "./globals.css";
 import { Toaster } from "sonner";
 import { Provider } from "react-redux";
 import { cn, poppins } from "@/lib/utils";
+import Navbar from "@/components/shared/navbar/Navbar";
+import Footer from "@/components/shared/Footer";
 
 export const metadata: Metadata = {
   title: "LMS App",
@@ -17,7 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn(poppins.className, "text-[#1f2732]")}>
-        <Toaster /> {children}
+        <Navbar /> <div className="pt-[57px]">{children}</div> <Footer />
+        <Toaster />
       </body>
     </html>
   );

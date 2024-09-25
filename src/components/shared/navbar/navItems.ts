@@ -1,10 +1,6 @@
 export const navItems = [
   {
-    path: "/",
-    pathName: "Home",
-  },
-  {
-    path: "/live-bootcamp",
+    path: "/live-bootcamps",
     pathName: "Live Bootcamp",
   },
   {

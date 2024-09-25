@@ -36,9 +36,9 @@ const Navbar = () => {
             " h-[57px] flex justify-between lg:justify-normal items-center gap-5"
           )}
         >
-          <div>
+          <Link href="/">
             <Image className="" height={40} width={145} src={logo} alt="" />
-          </div>
+          </Link>
           {/* mobile */}
           <MobileNav />
           {/* desktop */}
