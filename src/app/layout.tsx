@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Toaster } from "sonner";
-import { Provider } from "react-redux";
 import { cn, poppins } from "@/lib/utils";
 import Navbar from "@/components/shared/navbar/Navbar";
 import Footer from "@/components/shared/Footer";
