@@ -21,6 +21,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
+import LoginModal from "@/components/shared/LoginModal";
 
 type TParams = {
   params: { courseId: string };
@@ -196,7 +197,7 @@ const CourseDetailsPage = ({ params }: TParams) => {
           <div className=" rounded-md border hover:shadow-md duration-200">
             <div className="p-4 md:p-8 bg-slate-100">
               <h2 className="text-2xl font-bold">৳ 10.00</h2>
-              <Button className="w-full mt-8">Add to cart</Button>
+              <LoginModal />
             </div>
             <hr />
             <div className="p-4 md:p-8 space-y-4 text-[#757C8E]">
