@@ -13,31 +13,29 @@ export const sidebardItems = [
     href: "/dashboard",
     icon: LayoutDashboard,
   },
-
-  {
-    name: "Settings",
-    href: "/settings",
-    icon: Settings,
-  },
-
   {
     name: "My Profile",
-    href: "/my-profile",
+    href: "/dashboard/my-profile",
     icon: User,
   },
   {
     name: "Enrolled Courses",
-    href: "/enrolled-courses",
+    href: "/dashboard/enrolled-courses",
     icon: GraduationCap,
   },
   {
     name: "Wishlist",
-    href: "/wishlist",
+    href: "/dashboard/wishlist",
     icon: Bookmark,
   },
   {
     name: "My Quiz Attempts",
-    href: "/my-quiz-attempts",
+    href: "/dashboard/my-quiz-attempts",
     icon: Triangle,
+  },
+  {
+    name: "Settings",
+    href: "/dashboard/settings",
+    icon: Settings,
   },
 ];

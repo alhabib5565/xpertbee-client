@@ -14,7 +14,7 @@ const DashboardLayout = ({
       <DashboardHeader />
       <div className="border-t-2 grid grid-cols-1 md:grid-cols-4 gap-8">
         <Sidebar />
-        <div>{children}</div>
+        <div className="md:col-span-3 py-6">{children}</div>
       </div>
     </Container>
   );
