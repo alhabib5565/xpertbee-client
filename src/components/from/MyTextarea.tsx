@@ -11,7 +11,7 @@ import { Textarea } from "../ui/textarea";
 type TMyTextarea = {
   name: string;
   label: string;
-  placeholder: string;
+  placeholder?: string;
   rows: number;
 };
 
@@ -29,7 +29,7 @@ const MyTextarea = ({ name, label, placeholder, rows }: TMyTextarea) => {
               <Textarea
                 rows={rows}
                 className="bg-transparent"
-                placeholder={placeholder}
+                placeholder={placeholder || label}
                 {...field}
               />
             </FormControl>

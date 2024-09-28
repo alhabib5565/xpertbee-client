@@ -1,8 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import Link from "next/link";
 import React from "react";
 import { BookOpen } from "lucide-react";
+import PublishAnnouncementModal from "@/components/dashboard/announcement/PublishAnnouncementModal";
 
 const AnnouncementsPage = () => {
   return (
@@ -22,7 +21,7 @@ const AnnouncementsPage = () => {
           </div>
         </div>
 
-        <Button>Add New Announcement</Button>
+        <PublishAnnouncementModal />
       </div>
     </div>
   );
