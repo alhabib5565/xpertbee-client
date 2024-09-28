@@ -28,12 +28,12 @@ const MyInput = ({ name, label, type, placeholder, isGrid }: TMyInput) => {
         return (
           <FormItem
             className={cn({
-              "grid grid-cols-7 gap-4 items-center": isGrid,
+              "grid grid-cols-1 md:grid-cols-7 md:gap-4 items-center": isGrid,
             })}
           >
             <FormLabel
               className={cn({
-                "col-span-2": isGrid,
+                " md:col-span-2": isGrid,
               })}
             >
               {label}

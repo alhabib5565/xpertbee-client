@@ -12,9 +12,9 @@ const DashboardLayout = ({
   return (
     <Container large={true} className="py-10">
       <DashboardHeader />
-      <div className="border-t-2 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="border-t-2 grid grid-cols-1 lg:grid-cols-4 gap-8">
         <Sidebar />
-        <div className="md:col-span-3 py-6">{children}</div>
+        <div className="lg:col-span-3 py-6">{children}</div>
       </div>
     </Container>
   );

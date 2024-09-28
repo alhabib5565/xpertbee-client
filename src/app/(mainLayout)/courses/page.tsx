@@ -1,7 +1,7 @@
 import Container from "@/components/shared/Container";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
-import { Bookmark, BookOpen, Clock, MoveRight, User } from "lucide-react";
+import { Bookmark, Clock, MoveRight, User } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

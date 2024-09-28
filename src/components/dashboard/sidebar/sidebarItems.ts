@@ -3,6 +3,8 @@ import {
   GraduationCap,
   LayoutDashboard,
   Settings,
+  ShieldQuestion,
+  ShoppingCart,
   Triangle,
   User,
 } from "lucide-react";
@@ -32,6 +34,16 @@ export const sidebardItems = [
     name: "My Quiz Attempts",
     href: "/dashboard/my-quiz-attempts",
     icon: Triangle,
+  },
+  {
+    name: "Purchase History",
+    href: "/dashboard/purchase-history",
+    icon: ShoppingCart,
+  },
+  {
+    name: "Question Answer",
+    href: "/dashboard/question-answer",
+    icon: ShieldQuestion,
   },
   {
     name: "Settings",
