@@ -2,14 +2,25 @@ import {
   Bookmark,
   GraduationCap,
   LayoutDashboard,
+  LucideProps,
+  Podcast,
+  Rocket,
   Settings,
   ShieldQuestion,
   ShoppingCart,
   Triangle,
   User,
+  WalletCards,
 } from "lucide-react";
 
-export const sidebardItems = [
+export type TSidebarItem = {
+  name: string;
+  href: string;
+  icon: React.ForwardRefExoticComponent<
+    Omit<LucideProps, "ref"> & React.RefAttributes<SVGSVGElement>
+  >;
+};
+export const studentSidebardItems = [
   {
     name: "Dashboard",
     href: "/dashboard",
@@ -45,9 +56,27 @@ export const sidebardItems = [
     href: "/dashboard/question-answer",
     icon: ShieldQuestion,
   },
+];
+
+export const instructorSidebarItems = [
   {
-    name: "Settings",
-    href: "/dashboard/settings",
-    icon: Settings,
+    name: "My Courses",
+    href: "/dashboard/my-courses",
+    icon: Rocket,
+  },
+  {
+    name: "Announcements",
+    href: "/dashboard/announcements",
+    icon: Podcast,
+  },
+  {
+    name: "Withdraw",
+    href: "/dashboard/withdraw",
+    icon: WalletCards,
+  },
+  {
+    name: "Quiz Attempts",
+    href: "/dashboard/quiz-attempts",
+    icon: Triangle,
   },
 ];
