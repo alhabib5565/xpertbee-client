@@ -18,18 +18,6 @@ import MySelect from "@/components/from/MySelect";
 import { publishAnnouncementFormSchema } from "@/schemaWithDefaultValue/publishAnnouncementFormSchema";
 import MyTextarea from "@/components/from/MyTextarea";
 
-const courseOptions = [
-  { label: "English", value: "en" },
-  { label: "French", value: "fr" },
-  { label: "German", value: "de" },
-  { label: "Spanish", value: "es" },
-  { label: "Portuguese", value: "pt" },
-  { label: "Russian", value: "ru" },
-  { label: "Japanese", value: "ja" },
-  { label: "Korean", value: "ko" },
-  { label: "Chinese", value: "zh" },
-];
-
 const PublishAnnouncementModal = () => {
   const onSubmit = (value: FieldValues) => {
     console.log(value);
@@ -52,10 +40,16 @@ const PublishAnnouncementModal = () => {
           >
             <div className="grid grid-cols-1 gap-4">
               <MySelect
+                isSuggestion={true}
                 label="Select Course"
                 name="course"
                 placeholder="Select course"
-                options={courseOptions}
+                options={[
+                  {
+                    label: "Test",
+                    value: "Test",
+                  },
+                ]}
               />
               <MyInput
                 name="announcementTitle"

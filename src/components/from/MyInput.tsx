@@ -25,7 +25,6 @@ const MyInput = ({ name, label, type, placeholder, isGrid }: TMyInput) => {
       control={form.control}
       name={name}
       render={({ field, fieldState: { error } }) => {
-        console.log(error, "input");
         return (
           <FormItem
             className={cn({
