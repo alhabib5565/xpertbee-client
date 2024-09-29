@@ -59,31 +59,95 @@ export const createCourseFormValidation = z.object({
 });
 
 export const createCourseFormDValue = {
-  //basic info
-  courseTitle: "Title",
-  courseDescription: "Description",
-  price: 10,
-  maximumStudents: 10,
-  difficultyLevel: "",
-  courseCategory: "",
-  courseDuration: 10,
-  durationUnit: "",
-
-  //course curriculum
+  courseTitle: "Mastering Docker",
+  courseDescription:
+    "An in-depth course on Docker for developers and DevOps professionals.",
+  price: "20",
+  maximumStudents: "50",
+  difficultyLevel: "Intermediate",
+  courseCategory: "Development",
+  courseDuration: "4",
+  durationUnit: "Hours",
   curriculum: [
     {
-      moduleTitle: "",
+      moduleTitle: "Introduction to Docker",
       lessons: [
         {
-          lessonTitle: "",
+          lessonTitle: "What is Docker?",
+        },
+        {
+          lessonTitle: "Setting Up Docker",
+        },
+      ],
+    },
+    {
+      moduleTitle: "Working with Containers",
+      lessons: [
+        {
+          lessonTitle: "Creating Your First Container",
+        },
+        {
+          lessonTitle: "Managing Containers",
+        },
+        {
+          lessonTitle: "Docker Networking",
+        },
+      ],
+    },
+    {
+      moduleTitle: "Docker Compose",
+      lessons: [
+        {
+          lessonTitle: "Introduction to Docker Compose",
+        },
+        {
+          lessonTitle: "Defining Multi-Container Applications",
         },
       ],
     },
   ],
-
-  //Additional info
-  whatLearn: [""],
-  targetedAudience: [""],
-  materials: [""],
-  requirements: [""],
+  whatLearn: [
+    "Understand the fundamentals of Docker",
+    "Learn to create and manage containers",
+    "Deploy applications using Docker Compose",
+  ],
+  targetedAudience: [
+    "Developers looking to streamline their workflow",
+    "DevOps professionals interested in containerization",
+  ],
+  materials: ["Access to course repository", "Supplemental reading materials"],
+  requirements: [
+    "Basic knowledge of software development",
+    "Familiarity with command-line tools",
+  ],
 };
+
+// export const createCourseFormDValue = {
+//   //basic info
+//   courseTitle: "Title",
+//   courseDescription: "Description",
+//   price: 10,
+//   maximumStudents: 10,
+//   difficultyLevel: "",
+//   courseCategory: "",
+//   courseDuration: 10,
+//   durationUnit: "",
+
+//   //course curriculum
+//   curriculum: [
+//     {
+//       moduleTitle: "",
+//       lessons: [
+//         {
+//           lessonTitle: "",
+//         },
+//       ],
+//     },
+//   ],
+
+//   //Additional info
+//   whatLearn: [""],
+//   targetedAudience: [""],
+//   materials: [""],
+//   requirements: [""],
+// };

@@ -1,4 +1,3 @@
-import MyTab from "@/components/dashboard/DShared/MyTab";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -10,11 +9,12 @@ import { Edit, EllipsisVertical, LucideTrash } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import MyCoursesPageTab from "@/components/dashboard/myCourses/MyCoursesPageTab";
 
 const PendingCoursesPage = () => {
   return (
     <div className="space-y-6">
-      {/* <MyTab tabItems={myCourseTabItems} /> */}
+      <MyCoursesPageTab />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* card 1*/}
         <div className="border rounded-md flex flex-col">
